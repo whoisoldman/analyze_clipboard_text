@@ -18,7 +18,7 @@ Here are examples of using the program:
 
 1. Copy the following text to the clipboard:
    ```
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
    ```
 
 2. Run the program.
@@ -53,12 +53,12 @@ Here are examples of using the program:
    IN YOUR FILE (.txt):
 
    lines: 1
-   words: 10
-   characters with spaces: 82
-   characters without spaces: 76
+   words: 16
+   characters with spaces: 102
+   characters without spaces: 87
    characters in the filename with extension: 11
    characters in the filename without extension: 7
-   spaces in the filename without extension: 1
+   spaces in the filename: 0
    ```
 
 These examples demonstrate how to use the program to analyze text from the clipboard or from text files.
