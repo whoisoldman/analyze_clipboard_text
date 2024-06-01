@@ -30,9 +30,9 @@ Here are examples of using the program:
    IN YOUR TEXT:
 
    lines: 1
-   words: 14
-   characters with spaces: 97
-   characters without spaces: 82
+   words: 16
+   characters with spaces: 102
+   characters without spaces: 87
    ```
 
 **Example 2: Analyzing text from a file**
