@@ -1,6 +1,7 @@
 # analyze_clipboard_text
 
-## ABOUT CODE (PROGRAMM)
+**ABOUT CODE (PROGRAMM)**
+
 This program analyzes text either copied to the clipboard or contained within a `.txt` file.
 
 If text is copied to the clipboard, the program outputs the number of lines, words, characters with spaces, and characters without spaces in the text.
