@@ -17,16 +17,16 @@ def analyze_clipboard_text():
 def analyze_text(text):
     # Количество строк
     line_count = text.count('\n') + (not text.endswith('\n')) if text else 0
-    
+
     # Количество слов
     word_count = len(text.split())
-    
+
     # Количество знаков с пробелами
     char_count_with_spaces = len(text)
-    
+
     # Количество знаков без пробелов
     char_count_without_spaces = len(text.replace(" ", ""))
-    
+
     # Вывод результатов
     print("В ВАШЕМ ТЕКСТЕ:\n")
     print(f"строк: {line_count}")
@@ -45,17 +45,17 @@ def analyze_file(file_path):
 
     # Количество знаков в названии файла с расширением
     file_name_char_count_with_extension = len(file_name_with_extension)
-    
+
     # Количество знаков в названии файла без расширения и пробелов
     file_name_char_count_without_extension = len(file_name_without_extension.replace(" ", ""))
-    
+
     # Количество пробелов в названии файла без расширения
     spaces_count_in_filename = file_name_without_extension.count(" ")
 
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
-                
+
             if content.strip() == "":
                 # Файл пустой
                 print(f"В ВАШЕМ ФАЙЛЕ ({file_extension}) НЕТ ТЕКСТА:\n")
@@ -68,11 +68,11 @@ def analyze_file(file_path):
                 word_count = len(content.split())
                 char_count_with_spaces = len(content)
                 char_count_without_spaces = len(content.replace(" ", ""))
-                
+
                 print(f"В ВАШЕМ ФАЙЛЕ ({file_extension}):\n")
                 print(f"строк: {line_count}")
                 print(f"слов: {word_count}")
-                print(f"знаков с пробелами: {char_count_with_spaces}")
+                print(f"знаков c пробелами: {char_count_with_spaces}")
                 print(f"знаков без пробелов: {char_count_without_spaces}")
                 print(f"знаков в названии файла с расширением: {file_name_char_count_with_extension}")
                 print(f"знаков в названии файла без расширения: {file_name_char_count_without_extension}")
